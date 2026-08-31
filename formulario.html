@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Aula HTML</title>
-    <link rel="stylesheet" href="estilos.css">
+    <link rel="stylesheet" href="estilo.css">
 </head>
 <body>
     <h2>Formulário</h2>
@@ -15,18 +15,27 @@
 
         <label for="nome">Nome:</label><br>
         <input type="text" id="nome" name="nome" required><br>
+
         <label for="email">Email:</label><br>
         <input type="email" id="email" name="email" required><br>
+
         <label for="senha">Senha:</label><br>
         <input type="password" id="senha" name="senha" required><br>
+
         <label for="idade">Idade:</label><br>
         <input type="number" min="18" max="20" id="idade" name="idade" required><br>
+
         <label for="idade">Idade (slider):</label><br>
         <input type="range" id="idade" name="idade" min="0" max="100" required><br> 
+
+        <label for="cor">Cor: </label><br>
         <input type="color" id="cor" name="cor" required><br>
+
         <label for="data">Data:</label><br>        
         <input type="date" id="data" name="data" required><br>
+
         <label for="part">CPF:</label><br>
+
         <input type="text" id="part" name="part" required pattern="\d{3}\.\d{3}\.\d{3}-\d{2}" title="Digite o CPF no formato 000.000.000-00">
         <br>
         <label for="idiomas">Idiomas:</label><br>
@@ -35,7 +44,7 @@
         <input type="checkbox" id="idiomas" name="idiomas" value="frances"> Francês
         <input type="checkbox" id="idiomas" name="idiomas" value="alemão"> Alemão
         <input type="checkbox" id="idiomas" name="idiomas" value="italiano"> Italiano
-        <input type="checkbox" id="idiomas" name="idiomas" value="portugues"> Portugues
+        <input type="checkbox" id="idiomas" name="idiomas" value="português"> Português
 
 
         <br>
@@ -53,6 +62,7 @@
             <option value="belo_horizonte">Belo Horizonte</option>
             <option value="curitiba">Curitiba</option>
             <option value="porto_alegre">Porto Alegre</option>
+            <option value="pernambuco">Pernanbuco</option>
         </select>
 
         <br>
